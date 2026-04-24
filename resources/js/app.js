@@ -1,1 +1,1 @@
-//
+import "./logoutTampil.js";

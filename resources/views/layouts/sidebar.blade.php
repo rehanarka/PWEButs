@@ -10,7 +10,10 @@
 </head>
 
 <body class="min-h-screen bg-white">
-
+    <div class="ml-56">
+        @include('components.header')
+    </div>
+    @include('components.sidebar')
     @yield('content')
 
 </body>
