@@ -4,9 +4,9 @@ $menus = [
     ['name' => 'Produk', 'route' => 'produk', 'active' => request()->routeIs('produk')],
     ['name' => 'Pesanan', 'route' => 'pesanan', 'active' => request()->routeIs('pesanan')]
 ];
-$baseClass = 'flex items-center w-full px-4 py-2 text-md font-medium rounded-lg transition duration-300';
-$activeClass = 'bg-white hover:bg-gray-200 text-gray-800';
-$inactiveClass = 'text-gray-600 hover:bg-white hover:text-white hover:ring hover:ring-white hover:text-gray-800';
+$baseClass = 'flex items-center hover:scale-105 w-full px-4 py-2 text-md font-medium rounded-lg transition duration-300';
+$activeClass = 'bg-white hover:bg-gray-200 hover:border hover:border-white text-gray-800';
+$inactiveClass = 'text-gray-600 hover:bg-white hover:border hover:border-slate-800 hover:border-slate-100> hover:ring hover:ring-white hover:text-gray-800';
 @endphp
 
 <div id="sideBar" class="pt-10 w-56 bg-slate-100 h-screen fixed top-0 left-0 p-6 border-r border-gray-200">

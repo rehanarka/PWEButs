@@ -1,1 +1,2 @@
-import "./logoutTampil.js";
+import "./profileTampil.js";
+import "./modalLogout.js"

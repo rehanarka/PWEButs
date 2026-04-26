@@ -8,8 +8,8 @@
         <div class="float-soft grid w-full max-w-4xl overflow-hidden rounded-3xl border border-white/60 bg-white/75 shadow-[0_30px_80px_-35px_rgba(15,23,42,0.45)] backdrop-blur-xl lg:grid-cols-2">
             <div class="hidden bg-gradient-to-br from-sky-500 via-cyan-500 to-teal-400 p-10 text-white lg:flex lg:flex-col lg:justify-between">
                 <div class="space-y-4">
-                    <p class="inline-flex items-center rounded-full border border-white/35 bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em]">ArkaCafe Portal</p>
-                    <h1 class="text-3xl font-black leading-tight">Welcome Back</h1>
+                    <p class="inline-flex items-center rounded-full border border-white/35 bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em]">ArkaCafe</p>
+                    <h1 class="text-3xl font-black">Welcome Back</h1>
                     <p class="max-w-xs text-sm text-cyan-50/95">Kelola operasional cafe, pantau transaksi, dan lanjut kerja lebih cepat dari satu dashboard.</p>
                 </div>
                 <p class="text-xs text-cyan-50/90">UTS PWEB 242410101034.</p>

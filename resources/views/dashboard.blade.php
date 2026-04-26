@@ -5,7 +5,7 @@ $nama = session('nama', 'Pengguna')
 @endphp
 
 @section('content')
-    <div class="ml-56 min-h-screen bg-slate-50/70 p-6 sm:p-8">
+    <div class="ml-56 min-h-screen bg-slate-50 p-6 sm:p-8">
         <div class="mx-auto max-w-6xl space-y-6">
             <header class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
                 <p class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">ArkaCafe Admin</p>
@@ -17,19 +17,19 @@ $nama = session('nama', 'Pengguna')
                 <article class="rounded-2xl border border-cyan-100 bg-gradient-to-br from-cyan-50 to-sky-50 p-5 shadow-sm">
                     <p class="text-xs font-semibold uppercase tracking-[0.14em] text-cyan-700">Total Akun</p>
                     <p class="mt-2 text-3xl font-black text-slate-900">{{ $jumlahAkun }}</p>
-                    <p class="mt-1 text-sm text-slate-600">Akun terdaftar di sistem.</p>
+                    <p class="mt-1 text-sm text-slate-600">Akun terdaftar.</p>
                 </article>
 
                 <article class="rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50 to-fuchsia-50 p-5 shadow-sm">
-                    <p class="text-xs font-semibold uppercase tracking-[0.14em] text-violet-700">Status Login</p>
-                    <p class="mt-2 text-3xl font-black text-slate-900">Active</p>
-                    <p class="mt-1 text-sm text-slate-600">Sesi kamu sedang berjalan normal.</p>
+                    <p class="text-xs font-semibold uppercase tracking-[0.14em] text-violet-700">Total Produk</p>
+                    <p class="mt-2 text-3xl font-black text-slate-900">{{ $jumlahProduk }}</p>
+                    <p class="mt-1 text-sm text-slate-600">Produk pada menu.</p>
                 </article>
 
                 <article class="rounded-2xl border border-emerald-100 bg-gradient-to-br from-emerald-50 to-teal-50 p-5 shadow-sm sm:col-span-2 lg:col-span-1">
-                    <p class="text-xs font-semibold uppercase tracking-[0.14em] text-emerald-700">Quick Start</p>
-                    <p class="mt-2 text-lg font-bold text-slate-900">Kelola data cafe</p>
-                    <p class="mt-1 text-sm text-slate-600">Mulai dari menu produk atau cek pesanan terbaru.</p>
+                    <p class="text-xs font-semibold uppercase tracking-[0.14em] text-emerald-700">Total Pesanan</p>
+                    <p class="mt-2 text-3xl font-black text-slate-900">{{ $jumlahPesanan }}</p>
+                    <p class="mt-1 text-sm text-slate-600">Pesanan tercatat oleh sistem.</p>
                 </article>
             </section>
 

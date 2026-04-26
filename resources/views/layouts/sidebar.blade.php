@@ -9,11 +9,11 @@
     @stack('parti')
 </head>
 
-<body class="min-h-screen bg-white">
+<body class="min-h-screen bg-white overflow-hidden">
     <div class="ml-56">
         @include('components.header')
     </div>
-    @include('components.sidebar')
+    <x-sidebar/>
     @yield('content')
 
 </body>

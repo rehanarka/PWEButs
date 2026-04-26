@@ -27,11 +27,11 @@ class AuthController extends Controller
                 session([
                     'nama' => $akun['nama'],
                     'username' => $akun['username'],
+                    'nomor_hp' => $akun['nomor_hp'],
                 ]);
                 return redirect()->route('dashboard');
             }
         }
-
         return redirect()->back()
             ->withErrors(['login' => 'Username atau password salah'])
             ->withInput();
